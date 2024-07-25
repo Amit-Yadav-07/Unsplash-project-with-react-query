@@ -28,7 +28,7 @@ const Gallery = () => {
 
 
     if (data.results.length < 1) {
-        return <h2>no result found</h2>
+        return <h2 className='no-result'>no result found</h2>
     }
 
 
